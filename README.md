@@ -40,13 +40,6 @@ CosmoChroma is a full-stack web application that uses:
 - **Concealer**: Matching concealer options
 - **Eyeshadow**: Coordinated eyeshadow palettes
 
-Each product includes:
-- ✨ Product images
-- 💰 Price in INR
-- ⭐ Rating and review count
-- 🔗 Direct buy links
-- 📊 Color match accuracy score
-
 ### 🧴 Skincare Routines
 Personalized routines customized to your skin type:
 - **Morning Routine**: Energizing and protective steps
@@ -74,43 +67,6 @@ Personalized routines customized to your skin type:
 - **Products Database**: JSON (easily migrable to PostgreSQL)
 - **Caching**: In-memory (ready for Redis)
 - **Authentication**: Ready for JWT integration
-
-## 📁 Project Structure
-
-```
-CosmoChroma/
-├── cosmochroma-backend/          # Python FastAPI backend
-│   ├── app/
-│   │   ├── api/routes/           # API endpoints
-│   │   ├── models/               # ML models and analyzers
-│   │   ├── services/             # Business logic
-│   │   ├── schemas/              # Request/response models
-│   │   ├── utils/                # Utilities
-│   │   └── data/                 # Product database
-│   ├── tests/                    # Unit tests
-│   ├── main.py                   # FastAPI entry point
-│   ├── config.py                 # Configuration
-│   ├── requirements.txt          # Python dependencies
-│   └── README.md
-│
-├── cosmochroma-frontend/         # React Vite frontend
-│   ├── src/
-│   │   ├── components/           # React components
-│   │   ├── services/             # API client
-│   │   ├── hooks/                # Custom hooks
-│   │   ├── store/                # State management
-│   │   ├── styles/               # CSS/Tailwind
-│   │   ├── App.jsx               # Main app
-│   │   └── main.jsx              # React entry
-│   ├── public/                   # Static assets
-│   ├── index.html                # HTML template
-│   ├── package.json              # Dependencies
-│   ├── vite.config.js            # Vite config
-│   ├── tailwind.config.js        # Tailwind config
-│   └── README.md
-│
-└── README.md                     # This file
-```
 
 ## 🚀 Quick Start
 
@@ -146,18 +102,6 @@ npm install
 # Start development server
 npm run dev
 ```
-
-**Frontend will be available at**: http://localhost:3000
-
-### Verify Setup
-
-1. Check backend health:
-```bash
-curl http://localhost:8000/api/health
-```
-
-2. Open frontend: http://localhost:3000
-3. Upload a selfie to test the analysis
 
 ## 🔬 How It Works
 
@@ -255,104 +199,8 @@ Combination of:
 - Saturation (color intensity)
 - Warm score (color temperature)
 
-## 🚢 Deployment
-
-### Backend
-- **Heroku**: `git push heroku main`
-- **Railway.app**: `railway up`
-- **AWS EC2**: Docker container
-- **Google Cloud Run**: Serverless
-
-### Frontend
-- **Vercel**: `vercel`
-- **Netlify**: Drag and drop `dist` folder
-- **GitHub Pages**: Static hosting
-- **AWS S3**: Static website
-
-## 🔧 Configuration
-
-### Backend Config (`config.py`)
-```python
-API_TITLE = "CosmoChroma API"
-HOST = "0.0.0.0"
-PORT = 8000
-MAX_UPLOAD_SIZE = 10 * 1024 * 1024  # 10MB
-CORS_ORIGINS = ["http://localhost:3000", ...]
-```
-
-### Frontend Config (`.env`)
-```
-VITE_API_URL=http://localhost:8000
-```
-
-## 📦 Dependencies
-
-### Backend
-- fastapi==0.104.1
-- opencv-python==4.8.1.78
-- tensorflow==2.14.0
-- numpy==1.24.3
-- scipy==1.11.4
-- pydantic==2.5.0
-
-### Frontend
-- react@18.2.0
-- tailwindcss@3.3.0
-- axios@1.6.0
-- zustand@4.4.0
-- vite@5.0.0
-
-## 🐛 Troubleshooting
-
-### Backend Issues
-- **Port 8000 already in use**: `lsof -i :8000` then `kill -9 <PID>`
-- **OpenCV not found**: `pip install opencv-python`
-- **Face detection fails**: Ensure clear, well-lit selfie
-
-### Frontend Issues
-- **API not reachable**: Check backend is running on port 8000
-- **CORS errors**: Verify CORS_ORIGINS in backend config
-- **Styles not loading**: Run `npm install` and `npm run dev`
-
-## 🔐 Security
-
-- Input validation on all API endpoints
-- File type and size validation
-- CORS protection
-- Error messages don't expose sensitive info
-- Ready for JWT authentication
-
-## 📈 Future Enhancements
-
-- [ ] User accounts and history
-- [ ] Advanced CNN for skin type detection
-- [ ] Virtual makeup try-on
-- [ ] Dermatologist consultation integration
-- [ ] Mobile app (React Native)
-- [ ] Real-time video analysis
-- [ ] Skin condition detection (acne, sensitivity, etc.)
-- [ ] Ingredient database and allergy alerts
-- [ ] Subscription-based premium features
-
-## 📄 License
+# 📄 License
 
 CosmoChroma © 2024 - All Rights Reserved
-
-## 👨‍💻 Contributing
-
-We welcome contributions! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📞 Support
-
-For issues or questions:
-- Open a GitHub issue
-- Check README files in backend/frontend folders
-- Review API documentation at `/docs`
-
----
 
 **Built with ❤️ using Python, React, and AI/ML**
