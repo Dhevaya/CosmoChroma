@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "name": "Maybelline Fit Me Liquid Foundation",
+    "brand": "Maybelline",
+    "category": "foundation",
+    "shades": [
+      {"name": "128 Warm Nude", "rgb": {"r": 240, "g": 200, "b": 180}, "hex": "#F8C8B4"},
+      {"name": "130 Buff Beige", "rgb": {"r": 230, "g": 190, "b": 170}, "hex": "#E6BEAA"},
+      {"name": "220 Natural Beige", "rgb": {"r": 210, "g": 170, "b": 150}, "hex": "#D2AA96"},
+      {"name": "330 Toffee", "rgb": {"r": 180, "g": 140, "b": 110}, "hex": "#B48C6E"},
+      {"name": "380 Espresso", "rgb": {"r": 140, "g": 100, "b": 80}, "hex": "#8C6450"}
+    ],
+    "price_inr": 599,
+    "image_url": "https://images.nykaa.com/maybelline-foundation.jpg",
+    "rating": 4.2,
+    "reviews_count": 2150,
+    "buy_link": "https://www.nykaa.com/maybelline"
+  },
+  {
+    "id": 2,
+    "name": "Sugar Cosmetics Matte As Hell Liquid Lipstick",
+    "brand": "Sugar Cosmetics",
+    "category": "lipstick",
+    "shades": [
+      {"name": "Brick Red", "rgb": {"r": 200, "g": 80, "b": 60}, "hex": "#C8503C"},
+      {"name": "Toffee Brown", "rgb": {"r": 180, "g": 120, "b": 80}, "hex": "#B47850"},
+      {"name": "Deep Plum", "rgb": {"r": 120, "g": 60, "b": 100}, "hex": "#783C64"},
+      {"name": "Nude Beige", "rgb": {"r": 200, "g": 160, "b": 140}, "hex": "#C8A08C"},
+      {"name": "Cherry Red", "rgb": {"r": 220, "g": 40, "b": 60}, "hex": "#DC283C"}
+    ],
+    "price_inr": 499,
+    "image_url": "https://images.nykaa.com/sugar-lipstick.jpg",
+    "rating": 4.5,
+    "reviews_count": 3200,
+    "buy_link": "https://www.sugarcosmetics.com"
+  },
+  {
+    "id": 3,
+    "name": "MyGlamm K18 Leave-In Molecular Repair Hair Oil",
+    "brand": "MyGlamm",
+    "category": "skincare",
+    "shades": [
+      {"name": "Original", "rgb": {"r": 200, "g": 180, "b": 160}, "hex": "#C8B4A0"}
+    ],
+    "price_inr": 1299,
+    "image_url": "https://images.myglamm.com/k18-oil.jpg",
+    "rating": 4.4,
+    "reviews_count": 890,
+    "buy_link": "https://www.myglamm.com"
+  },
+  {
+    "id": 4,
+    "name": "Nykaa Cosmetics Face Serum",
+    "brand": "Nykaa",
+    "category": "skincare",
+    "shades": [
+      {"name": "Universal", "rgb": {"r": 220, "g": 200, "b": 180}, "hex": "#DCC8B4"}
+    ],
+    "price_inr": 749,
+    "image_url": "https://images.nykaa.com/nykaa-serum.jpg",
+    "rating": 4.3,
+    "reviews_count": 1540,
+    "buy_link": "https://www.nykaa.com"
+  },
+  {
+    "id": 5,
+    "name": "Mars Face Palette Blush & Contour",
+    "brand": "Mars",
+    "category": "blush",
+    "shades": [
+      {"name": "Warm Peach", "rgb": {"r": 240, "g": 150, "b": 120}, "hex": "#F89678"},
+      {"name": "Rose Gold", "rgb": {"r": 230, "g": 130, "b": 130}, "hex": "#E68282"},
+      {"name": "Coral", "rgb": {"r": 250, "g": 140, "b": 100}, "hex": "#FA8C64"},
+      {"name": "Bronze", "rgb": {"r": 180, "g": 120, "b": 80}, "hex": "#B47850"},
+      {"name": "Berry", "rgb": {"r": 180, "g": 100, "b": 120}, "hex": "#B46478"}
+    ],
+    "price_inr": 399,
+    "image_url": "https://images.nykaa.com/mars-blush.jpg",
+    "rating": 4.1,
+    "reviews_count": 1200,
+    "buy_link": "https://www.nykaa.com/mars"
+  },
+  {
+    "id": 6,
+    "name": "MAC Fix+",
+    "brand": "MAC",
+    "category": "makeup_setting",
+    "shades": [
+      {"name": "Original", "rgb": {"r": 240, "g": 240, "b": 240}, "hex": "#F0F0F0"}
+    ],
+    "price_inr": 2100,
+    "image_url": "https://images.nykaa.com/mac-fix.jpg",
+    "rating": 4.6,
+    "reviews_count": 2890,
+    "buy_link": "https://www.nykaa.com/mac"
+  },
+  {
+    "id": 7,
+    "name": "Lakme Absolute Blur Perfect Concealer",
+    "brand": "Lakme",
+    "category": "concealer",
+    "shades": [
+      {"name": "Fair", "rgb": {"r": 240, "g": 210, "b": 190}, "hex": "#F0D2BE"},
+      {"name": "Light Medium", "rgb": {"r": 220, "g": 190, "b": 170}, "hex": "#DCBEAA"},
+      {"name": "Medium", "rgb": {"r": 200, "g": 170, "b": 150}, "hex": "#C8AA96"},
+      {"name": "Deep", "rgb": {"r": 160, "g": 130, "b": 110}, "hex": "#A0826E"},
+      {"name": "Dark Deep", "rgb": {"r": 130, "g": 100, "b": 80}, "hex": "#826450"}
+    ],
+    "price_inr": 549,
+    "image_url": "https://images.nykaa.com/lakme-concealer.jpg",
+    "rating": 4.3,
+    "reviews_count": 1680,
+    "buy_link": "https://www.nykaa.com/lakme"
+  },
+  {
+    "id": 8,
+    "name": "Wet n Wild MegaEyes Eyeshadow Palette",
+    "brand": "Wet n Wild",
+    "category": "eyeshadow",
+    "shades": [
+      {"name": "Rose Gold", "rgb": {"r": 240, "g": 180, "b": 160}, "hex": "#F0B4A0"},
+      {"name": "Bronze", "rgb": {"r": 200, "g": 140, "b": 100}, "hex": "#C88C64"},
+      {"name": "Plum", "rgb": {"r": 150, "g": 100, "b": 130}, "hex": "#966482"},
+      {"name": "Brown", "rgb": {"r": 140, "g": 100, "b": 70}, "hex": "#8C6446"},
+      {"name": "Gold", "rgb": {"r": 220, "g": 180, "b": 100}, "hex": "#DCB464"}
+    ],
+    "price_inr": 799,
+    "image_url": "https://images.nykaa.com/wetnwild-eyeshadow.jpg",
+    "rating": 4.4,
+    "reviews_count": 2100,
+    "buy_link": "https://www.nykaa.com/wet-n-wild"
+  },
+  {
+    "id": 9,
+    "name": "Clinique Dramatically Different Moisturizing Lotion",
+    "brand": "Clinique",
+    "category": "skincare",
+    "shades": [
+      {"name": "Universal", "rgb": {"r": 230, "g": 220, "b": 210}, "hex": "#E6DCCC"}
+    ],
+    "price_inr": 2000,
+    "image_url": "https://images.nykaa.com/clinique-moisturizer.jpg",
+    "rating": 4.5,
+    "reviews_count": 3400,
+    "buy_link": "https://www.nykaa.com/clinique"
+  },
+  {
+    "id": 10,
+    "name": "Bobbi Brown Foundation Stick",
+    "brand": "Bobbi Brown",
+    "category": "foundation",
+    "shades": [
+      {"name": "Porcelain", "rgb": {"r": 250, "g": 220, "b": 200}, "hex": "#FADCC8"},
+      {"name": "Warm Natural", "rgb": {"r": 230, "g": 200, "b": 180}, "hex": "#E6C8B4"},
+      {"name": "Beige", "rgb": {"r": 210, "g": 180, "b": 160}, "hex": "#D2B4A0"},
+      {"name": "Golden", "rgb": {"r": 180, "g": 150, "b": 130}, "hex": "#B49682"},
+      {"name": "Deep Golden", "rgb": {"r": 140, "g": 110, "b": 90}, "hex": "#8C6E5A"}
+    ],
+    "price_inr": 3500,
+    "image_url": "https://images.nykaa.com/bobbi-foundation.jpg",
+    "rating": 4.6,
+    "reviews_count": 1950,
+    "buy_link": "https://www.nykaa.com/bobbi-brown"
+  }
+]

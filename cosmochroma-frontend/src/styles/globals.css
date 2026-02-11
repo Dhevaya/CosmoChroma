@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: #f9fafb;
+  min-height: 100vh;
+  color: #1f2937;
+}
+
+.container-main {
+  @apply max-w-7xl mx-auto px-6 py-8;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6 transition-all duration-300 hover:shadow-md;
+}
+
+.btn-primary {
+  @apply bg-gray-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-colors;
+}
+
+.text-gradient {
+  color: #1f2937;
+  font-weight: 700;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.2;
+}
+
+p, span, a {
+  color: #4b5563;
+}
+
+/* Heading sizes */
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Whitespace utilities */
+.spacing-generous {
+  @apply space-y-8;
+}
+
+.spacing-medium {
+  @apply space-y-6;
+}
+
+.spacing-tight {
+  @apply space-y-4;
+}
