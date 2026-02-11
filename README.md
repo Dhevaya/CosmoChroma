@@ -197,8 +197,7 @@ olive_score = G / (R+B)
 Combination of:
 - Brightness (luminance)
 - Saturation (color intensity)
-- Warm score (color temperature)
-
+- Warm score (color temperatur
 # 📄 License
 
 CosmoChroma © 2024 - All Rights Reserved
