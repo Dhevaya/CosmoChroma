@@ -24,7 +24,8 @@ class Settings(BaseSettings):
         "http://127.0.0.1:3001",
         "http://127.0.0.1:5173",
 
-        "https://cosmochroma.onrender.com",
+       
+        "https://cosmo-chroma.vercel.app",
     ]
     
     # File Upload Configuration
